@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+  font-family: 'Waterfall', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  color: #66BFBF;
+  font-size: 2rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+  font-size: 1rem;
+  margin: 20px 20px;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+}
+a:hover{
+  color:#EAF6F6;
+}
+hr{
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width:5%;
+  margin: 50px auto;
+
+}
+p{
+    line-height: 2;
+}
+.top-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.about{
+  width: 30%;
+  margin: auto;
+}
+
+.middle-container {
+  background-color: #EAF6F6;
+  padding: 100px;
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  font-size:.75rem;
+  padding: 50px 0 20px;
+}
+
+.create {
+  text-decoration: underline;
+}
+
+.cloud-top {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.profile {
+  border-radius: 100%;
+  width: 20%
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.brain {
+  width: 25%;
+  float: right;
+  border-radius: 100%;
+  margin-right:30px;
+}
+.doom {
+  width: 25%;
+  float:left;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #211999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #211999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #211999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #211999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #211999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #EAF6F6;
+  font-size: 26px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
